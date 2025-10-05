@@ -1,4 +1,4 @@
-//program in C to find the roots of a quadratic equation(ax²+bx+c=0)
+//program in C to find the roots of a quadratic equation(axÂ²+bx+c=0)
 #include<stdio.h>
 #include<math.h>
 int main ( )
@@ -13,7 +13,7 @@ int main ( )
 		r2=(-b-sqrt(D))/(2*a);
 		printf("The equation has two real roots=%f and %f", r1,r2);
 	}
-	else if(D=0)
+	else if(D==0)
 	{
 		r1=-b/(2*a);
 		r2=-b/(2*a);
@@ -25,3 +25,4 @@ int main ( )
 	}
 	return 0;
 }
+
